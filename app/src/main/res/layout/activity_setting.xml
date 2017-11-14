@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ct0292477.afinal.Setting">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/frameLayout"
+        android:background="#ECECEC"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:text="Setting"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/setting"
+        android:contentDescription="@android:string/untitled"
+        android:id="@+id/imageView2" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/frameLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:fontFamily="serif"
+        android:text="Reminder"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/frameLayout2" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/reminder"
+        android:contentDescription="@android:string/untitled"
+        android:id="@+id/imageView6" />
+
+
+    <Button
+        android:id="@+id/btnReminder"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="65dp"
+        android:textSize="16sp"
+        android:text="Set Reminder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"/>
+
+    <Button
+        android:id="@+id/buttonLocationService"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="125dp"
+        android:text="Enable/ Disable"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="235dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="317dp"
+        android:id="@+id/frameLayout4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:text="Location Service"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/location"
+        android:contentDescription="@android:string/untitled"
+        android:layout_marginTop="130dp" />
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/category"
+        android:contentDescription="@android:string/untitled"
+        android:id="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="193dp"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_toEndOf="@+id/imageView5"
+        android:text="Customize Category"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="260dp"
+        android:contentDescription="@android:string/defaultVoiceMailAlphaTag"
+        app:srcCompat="@drawable/logout1" />
+
+    <TextView
+        android:id="@+id/User"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:text="user"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="265dp"/>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/buttonLocationService"
+        android:text="Log out"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+
+</RelativeLayout>

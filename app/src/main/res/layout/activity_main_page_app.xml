@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:background="@android:color/background_light"
+    tools:context="com.ct0292477.afinal.MainPageApp">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/moneybank5"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/ExNov"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/ExNov"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:background="@android:color/background_light"
+        android:ems="11"
+        android:filterTouchesWhenObscured="false"
+        android:fitsSystemWindows="?android:attr/windowNoTitle"
+        android:gravity="center_vertical|center"
+        android:hint='Log in ID ("a" to "z", max: 1 alphabet)'
+        android:inputType="textPersonName"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextpw"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="43dp"
+        android:background="@android:color/background_light"
+        android:ems="11"
+        android:gravity="center_vertical|center"
+        android:hint='Password("0" to "9", max: 1 alphabet)'
+        android:inputType="textPersonName"
+        android:textColor="?android:attr/textColorSecondaryNoDisable"
+        android:textColorLink="#6F6F6F"
+        android:textSize="16sp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignStart="@+id/ExNov" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="Log in"
+        android:layout_alignTop="@+id/editTextpw"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp" />
+
+    <Button
+        android:id="@+id/btn_email_create_account"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLogIn"
+        android:layout_alignBottom="@+id/btnLogIn"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/btnLogIn"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_email_create_account"
+        android:layout_alignEnd="@+id/btn_email_create_account"
+        android:layout_marginBottom="15dp"
+        android:text="Forgot Password?"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
+
+

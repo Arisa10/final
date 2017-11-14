@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ct0292477.afinal.IncomeRecord">
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="280dp"
+        android:text="Next"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/November"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnSpan="7"
+        android:layout_marginStart="10dp"
+        android:text="Income November 2017"
+        android:textSize="16sp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:paddingRight="2dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/getpdDay1"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="29/10"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getpdDay2"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="30"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getpdDay3"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="31"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay1"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="1/11"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/getdDay2"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay3"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay4"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="4"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/getpiDay1"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getpiDay2"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getpiDay3"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay1"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay2"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay3"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay4"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/getdDay5"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay6"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="6"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay7"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="7"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay8"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="8"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay9"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="9"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay10"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="10"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay11"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="11"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/getiDay5"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay6"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay7"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay8"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay9"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay10"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay11"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/getdDay12"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="12"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay13"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="13"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay14"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="14"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay15"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="15"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay16"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="16"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay17"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="17"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay18"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="18"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/getiDay12"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay13"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay14"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay15"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay16"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay17"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay18"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/getdDay19"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="19"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay20"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="20"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay21"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="21"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay22"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="22"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay23"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="23"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay24"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="24"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay25"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="25"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/getiDay19"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay20"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay21"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay22"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay23"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay24"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay25"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/getdDay26"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="26"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay27"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="27"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay28"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="28"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay29"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="29"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDay30"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="30"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getfdDay1"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="1/12"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/getdDayfd2"
+                android:layout_width="47dp"
+                android:layout_height="24dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="2/12"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/getiDay26"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay27"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay28"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/getiDay29"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getiDay30"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getifDay1"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/getifDay2"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="15dp"
+        android:text="Click to calculate total"
+        android:textSize="10sp" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="355dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="fill_vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="105dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical|center"
+                android:paddingTop="10dp"
+                android:text="Income Oct : "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/InOct"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,LabelFor,RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="fill_vertical">
+
+            <TextView
+                android:id="@+id/TExpenses"
+                android:layout_width="105dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical|center"
+                android:text="Income Nov : "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ExNov"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:gravity="center_vertical|center"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,LabelFor" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="fill_vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="105dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical|center"
+                android:text="Total Income : "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/Totalin"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,LabelFor" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_span="2"
+                android:text="* Check to box beside to hide the figure."
+
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/Hide"
+                android:layout_width="85dp"
+                android:layout_height="35dp"
+                android:onClick="finalSelection"
+                android:text="Hide/ Show"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>
+
